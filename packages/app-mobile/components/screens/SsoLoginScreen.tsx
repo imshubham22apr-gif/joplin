@@ -71,7 +71,7 @@ const SsoLoginScreenComponent = (props: Props) => {
 
 					<View style={styles.marginBottom}>
 						<Text style={styles.text}>2. {_('Enter the code')}</Text>
-						<TextInput placeholder='###-###-###' value={code} onChangeText={setCode}/>
+						<TextInput placeholder='###-###-###' value={code} onChangeText={setCode} autoCapitalize='none' autoCorrect={false}/>
 					</View>
 
 					<View style={styles.buttonContainer}>
